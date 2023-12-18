@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Email\" />
+    <Folder Include="Contracts\Identity\" />
+    <Folder Include="Contracts\Logging\" />
+    <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\Table\Commands\CreateTable\" />
+    <Folder Include="Features\Table\Commands\DeleteTable\" />
+    <Folder Include="Features\Table\Commands\UpdateTable\" />
+    <Folder Include="Features\Table\" />
+    <Folder Include="Features\Table\Queries\GetAllTable\" />
+    <Folder Include="Features\Table\Queries\GetDetailsTable\" />
+    <Folder Include="MappingProfiles\" />
+    <Folder Include="Models\Email\" />
+    <Folder Include="Models\Identity\" />
+  </ItemGroup>
+
+</Project>
